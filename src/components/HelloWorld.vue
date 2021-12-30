@@ -32,7 +32,7 @@ export default {
     });
 
     const downloadPdf = () => {
-      fy('te', '.box', 'p').then((res) => {
+      fy('test', '.box', 'p').then((res) => {
         alert(res);
       });
     };
@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-  <button class="ppp" @click="downloadPdf">{{ msg }}</button>
+  <button  @click="downloadPdf">{{ msg }}</button>
   <div class="box" id="chart1"></div>
   <div class="box" id="c1"></div>
   <div class="box" id="c1"></div>
