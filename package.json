@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "auto-size-echart": "^1.1.1",
+    "jquery": "3.6.0",
     "paging-pdf": "^1.1.5",
     "vue": "^3.2.25"
   },
